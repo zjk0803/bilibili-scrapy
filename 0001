@@ -16,3 +16,26 @@ def generate(count,length):
 
 if __name__ == "__main__":
     generate(200,20)
+
+
+
+#第二种
+__author__ = 'Tracy'
+
+
+
+import uuid
+
+
+
+f = open('keys.txt', 'w')
+
+
+
+for i in range(200):
+
+    f.write(str(uuid.uuid1())+"\n")
+
+
+
+f.close()
