@@ -53,4 +53,3 @@ image = image.filter(PIL.ImageFilter.BLUR)
 image.save('Result.jpg')
 
 image.show()
-
